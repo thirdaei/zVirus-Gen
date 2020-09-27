@@ -1,7 +1,7 @@
 # zVirus Gen
 Those who don't know how to use VCRT. You can automatically generate a virus.
 
-## Installation:
+## Install this first:
 __Ubuntu__
 > apt-get install git -y
 
@@ -11,6 +11,7 @@ __Termux__
 __Other__
 > apt install git -y
 
+## Installation:
 > git clone https://github.com/ZechBron/zVirus-Gen
 
 > cd zVirus-Gen
