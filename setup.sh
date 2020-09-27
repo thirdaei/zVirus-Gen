@@ -24,5 +24,5 @@ apt install curl -y
 else
 echo "Wrong input"
 fi
-
+chmod +x update.sh
 chmod +x zVirus
