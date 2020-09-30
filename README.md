@@ -1,4 +1,4 @@
-# zVirus Gen [![GitHub Repo stars](https://img.shields.io/github/stars/ZechBron/zVirus-Gen)](https://github.com/ZechBron/zVirus-Gen/stargazers)
+# zVirus Gen [![GitHub Repo stars](https://img.shields.io/github/stars/ZechBron/zVirus-Gen)](https://github.com/ZechBron/zVirus-Gen/stargazers) [![GitHub forks](https://img.shields.io/github/forks/ZechBron/zVirus-Gen)](https://github.com/ZechBron/zVirus-Gen/network/members)
 Those who don't know how to use VCRT. You can automatically generate a virus.
 
 ![zVirus Created By: Zech Bron](https://raw.githubusercontent.com/ZechBron/zVirus-Gen/zVirus/IMG_20200927_175911.png)
