@@ -8,6 +8,7 @@ Well __Z Virus__ is a Collection of ready made Viruses.
 In other Virus Generator tools like let's say vbug, or vcrt. It generate apk virus and you have to manually send it to your victim.
 However in __Z Virus__ All you have to do is to send the __link__ to your victim and make the victim download the virus. 
 
+
 ## Install this first:
 __Ubuntu__
 > apt-get install git -y
@@ -17,6 +18,7 @@ __Termux__
 
 __Other__
 > apt install git -y
+
 
 ## Installation:
 > git clone https://github.com/ZechBron/zVirus-Gen
@@ -34,6 +36,7 @@ __Other__
 __Or__
 
 > bash zVirus
+
 
 ## To Update
 > ./update.sh
