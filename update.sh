@@ -22,12 +22,8 @@ fi
 
 }
 
-if [ "$zCh" = "Version 1.0" ]; then
+if [ "$zCh" = "Version 1.1.0" ]; then
 echo -e "\e[91mNo latest version available\e[0m"
-
-elif [ "$zCh" = "Version 1.1.0" ]; then
-echo -e "\e[92mVersion 1.1.0 available\e[0m"
-update
 
 elif [ "$zCh" = "Version 1.1.1" ]; then
 echo -e "\e[92mVersion 1.1.1 available\e[0m"
