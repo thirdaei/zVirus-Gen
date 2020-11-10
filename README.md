@@ -1,6 +1,18 @@
 # zVirus Gen [![Version](https://img.shields.io/badge/Version-1.1-blue)](https://github.com/ZechBron)
 Those who don't know how to use VCRT. You can automatically generate a virus.
 
+---
+
+# Next Update Version 1.2
+__Features:__
++ Choose Api Share:
+   Bashuploads
+   Filepush
+   Transfer.sh
+   Anonfiles
++ Bat with Exe for deskop app.
+
+
 ![zVirus Created By: Zech Bron](https://raw.githubusercontent.com/ZechBron/zVirus-Gen/zVirus/IMG_20200927_175911.png)
 
 ## What does `z Virus` Actually do?
