@@ -4,12 +4,18 @@ Those who don't know how to use VCRT. You can automatically generate a virus.
 ---
 
 # Next Update Version 1.2
-__Features:__
-+ Choose Api Share:
+## Features
+
++ Choose Api Share
+
    Bashuploads
+
    Filepush
+   
    Transfer.sh
+   
    Anonfiles
+
 + Bat with Exe for deskop app.
 
 
