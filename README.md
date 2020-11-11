@@ -18,6 +18,8 @@ Those who don't know how to use VCRT. You can automatically generate a virus.
 
 + Bat with Exe for deskop app.
 
+Because of consecutive storm here in our country. The update will on December
+
 
 ![zVirus Created By: Zech Bron](https://raw.githubusercontent.com/ZechBron/zVirus-Gen/zVirus/IMG_20200927_175911.png)
 
