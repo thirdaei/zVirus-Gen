@@ -5,7 +5,7 @@ Those who don't know how to use VCRT. You can automatically generate a virus.
 
 # Next Update Version 1.4
 ## Features
-
+`Will be converted into python`
 + Choose Api Share
 
    Bashuploads
@@ -17,6 +17,8 @@ Those who don't know how to use VCRT. You can automatically generate a virus.
    Anonfiles
 
 + Bat with Exe for deskop app.
+
++ I will include my dark programs
 
 Because of consecutive storm here in our country. The update will on December
 
