@@ -68,4 +68,4 @@ __Or__
 > bash update.sh
 
 ### Note:
-It is recommended to update this tool everyday.
+Version 1.4 will be posted before January 2021
