@@ -68,4 +68,4 @@ __Or__
 > bash update.sh
 
 ### Note:
-Version 1.4 will be posted before January 2021
+Version 1.4 will be posted this 2nd week of January 2021
