@@ -11,11 +11,7 @@ cd $HOME
 rm -rf zVirus-Gen
 git clone https://github.com/ZechBron/zVirus-Gen
 cd zVirus-Gen
-chmod +x setup.sh
-chmod +x update.sh
-chmod +x zVirus.py
 bash setup.sh
-cd
 elif [ "$ChB" = "n" ]; then
 echo "Ok"
 else
@@ -24,16 +20,8 @@ fi
 
 }
 
-if [ "$zCh" = "Version 1.1.1" ]; then
+if [ "$zCh" = "Version 1.3" ]; then
 echo -e "\e[91mNo latest version available\e[0m"
-
-elif [ "$zCh" = "Version 1.2" ]; then
-echo -e "\e[92mVersion 1.2 available\e[0m"
-update
-
-elif [ "$zCh" = "Version 1.3" ]; then
-echo -e "\e[92mVersion 1.3 available\e[0m"
-update
 
 elif [ "$zCh" = "Version 1.4" ]; then
 echo -e "\e[92mVersion 1.4 available\e[0m"
@@ -62,8 +50,7 @@ update
 elif [ "$zCh" = "Version 2.0" ]; then
 echo -e "\e[92mVersion 2.0 available\e[0m"
 update
-
-else
-echo "unknown error"
 fi
+
+echo -e "\e[92mzVirus Version 1.4 will be release soon. Once version 1.4 is released, some of the commands will be changed.\nBut worry not. All you have to do is to type: bash update.sh to update zVirus in version 1.4. As of now, you have to wait."
 
